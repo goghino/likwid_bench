@@ -1,5 +1,22 @@
-Please describe the setup of the experiment
-*Where was the test run? ICS/DXT cluster?
-*What command was used to run the experiment?
-*How many cores/nodes were used?
-*...
+Our goal:
+
+We are interested to measures the memory bandwith available on the processor during run of one and multiple serial run.
+The hypothesis is that bandwidth for single process is larger then when many processes run at the same time and compete for it.
+
+Setup of the experiment:
+These tests are runned on the  ICS to start study the performaces with likwid, next step would be to 
+move on these tests on the DXT cluster.
+
+
+To run the experiment run the following command:
+1. At first we need to know the include and library paths for LIKWID. There is no common way but if you used the default build process you can use this:
+
+source load_path.sh
+
+2. compile the membench.c file with likwid Maker API
+
+make membench-likwid
+
+3. execute the test: Run the application serially, son Socker 0 core 0 and save the results about L3 cache peformance into res folder:
+
+likwid-perfctr -C S0:0 -g L3 -m ./membench > res/res.txt
