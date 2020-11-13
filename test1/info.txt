@@ -17,6 +17,8 @@ source load_path.sh
 
 make membench-likwid
 
-3. execute the test: Run the application serially, son Socker 0 core 0 and save the results about L3 cache peformance into res folder:
+3. execute the test: Run the application serially on one ICS node , son Socker 0 core 0 and save the results about L3 cache peformance into res folder:
+
+salloc -N1 --exclusive
 
 likwid-perfctr -C S0:0 -g L3 -m ./membench > res/res.txt
