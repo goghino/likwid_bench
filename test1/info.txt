@@ -29,3 +29,7 @@ The output is to stderr. So we will look at the output file membench-timeline.er
 <groupID> <numberOfEvents> <numberOfThreads> <Timestamp> <Event1_Thread1> <Event1_Thread2> ... <EventN_ThreadN>
 
 We visualize the L3 bandwidth using a python scritp 'plot-timeline.py'
+
+python plot-timeline.py
+
+the image plot is saved into plot/ folder.
