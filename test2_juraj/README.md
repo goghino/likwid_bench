@@ -16,11 +16,12 @@ else
 fi
 ```
 
-![Multiprocess run](https://github.com/goghino/likwid_bench/edit/master/test2_juraj/results/results_proc.png)
+![Multiprocess run](results/results_proc.png)
 
 # Running multithreaded process
 We can observe similar memory bottleneck problem when running multithreaded applications. The memory bandwidth becomes saturated when running 5-6 threads. Adding threads up to 10 will be limited by the memory. But additional threads, located at the second NUMA domain, will have access to the second memory controller and thus the bandwidth scaling will be linear. The ideal execution time of the weak scaling test is constant. However due to the memory bottleneck the time will increase when increasing number of threads up to saturating the first NUMA domain. Additional threads will not limit the overall time since they have access to the second memory controller. (Note: The overall time will be significantly degraded if the memory is not properly allocated, i.e. first touch. In such case the treads from the second NUMA domain will access data in the first NUMA domain through a slow NUMA interconnect and will additionaly increase the load of the first memory controller, futher worsening the bottleneck. The data thus need to be allocated properly, located within the NUMA domain as the corresponding thread.)
-![Multithreaded run](https://github.com/goghino/likwid_bench/edit/master/test2_juraj/results/results_thread.png)
+
+![Multithreaded run](results/results_thread.png)
 
 The benchmark is executed as following, where `i` specifies number of threads in first NUMA, `ii` number of threads in the second NUMA domain, `Da` and `Db` are data arrays for each NUMA domain, where it is `i` or `ii` multiple of 1000MB, respectivelly.
 
