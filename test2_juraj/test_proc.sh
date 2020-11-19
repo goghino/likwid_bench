@@ -27,11 +27,13 @@ export OMP_NUM_THREADS=1
 printf "Process $i\n"
 hostname
 
-# run the experiment
+# run the experiment, local size 1GB, 100 iterations
 
 if [ "$i" -lt 10 ]; then
+    #launch first 10 processes on socket 0
     likwid-perfctr -C S0:$i -g L3 likwid-bench -i 100 -t triad -w S0:1000MB:1
 else
+    #additional processes are placed on socket 1
     likwid-perfctr -C S1:$i -g L3 likwid-bench -i 100 -t triad -w S1:1000MB:1
 fi
 

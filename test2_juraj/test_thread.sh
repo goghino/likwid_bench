@@ -27,11 +27,14 @@ hostname
 printf "Data S0: $Da\n"
 printf "Data S1: $Db\n"
 
-# run the experiment
+# run the experiment, local data size 1000MB per thread, 100 iterations
+
 if [ $i -lt 11  ]; then
-likwid-perfctr -C E:N:$i -g L3 likwid-bench -i 100 -t triad -w S0:$Da:$i
+    #first 10 threads are placed on S0, Da=1000*i
+    likwid-perfctr -C E:N:$i -g L3 likwid-bench -i 100 -t triad -w S0:$Da:$i
 else
-likwid-perfctr -C E:N:$i -g L3 likwid-bench -i 100 -t triad -w S0:10000MB:10 -w S1:$Db:$ii
+    #additional threads are located at socket S1, Db=1000*ii, first 10 threads are run on S0
+    likwid-perfctr -C E:N:$i -g L3 likwid-bench -i 100 -t triad -w S0:10000MB:10 -w S1:$Db:$ii
 fi
 _EOF
 done
