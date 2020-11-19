@@ -1,0 +1,7 @@
+WARN: Linux kernel configured with paranoid level 2
+WARN: Paranoid level 0 or root access is required to measure Uncore counters
+Sleeping longer as likwid_sleep() called without prior initialization
+Sleeping longer as likwid_sleep() called without prior initialization
+Warning: Multiple workgroups with different thread counts are not recommended. Use with case!
+Warning: Multiple workgroups with different sizes are not recommended. Use with case!
+Running without Marker API. Activate Marker API with -m on commandline.

@@ -1,0 +1,6 @@
+WARN: Linux kernel configured with paranoid level 2
+WARN: Paranoid level 0 or root access is required to measure Uncore counters
+Sleeping longer as likwid_sleep() called without prior initialization
+Sleeping longer as likwid_sleep() called without prior initialization
+Warning: Sanitizing vector length to a multiple of the loop stride 4 and thread count 11 from 31250000 elements (250000000 bytes) to 31249988 elements (249999904 bytes)
+Running without Marker API. Activate Marker API with -m on commandline.

@@ -1,0 +1,99 @@
+Using 3 Threads
+icsnode30
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+Allocate: Process running on core 0 (Domain N) - Vector length 31249992/249999936 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain N) - Vector length 31249992/249999936 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain N) - Vector length 31249992/249999936 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain N) - Vector length 31249992/249999936 Offset 0 Alignment 512
+Initialization: First thread in domain initializes the whole stream
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: triad
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 3 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 10416664 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 1 - Vector length 10416664 Offset 10416664
+Group: 0 Thread 2 Global Thread 2 running on core 2 - Vector length 10416664 Offset 20833328
+--------------------------------------------------------------------------------
+Cycles:			7304202338
+CPU Clock:		2300007609
+Cycle Clock:		2300007609
+Time:			3.175730e+00 sec
+Iterations:		300
+Iterations per thread:	100
+Inner loop executions:	2604166
+Size (Byte):		999999744
+Size per thread:	333333248
+Number of Flops:	6249998400
+MFlops/s:		1968.05
+Data volume (Byte):	99999974400
+MByte/s:		31488.82
+Cycles per update:	2.337345
+Cycles per cacheline:	18.698763
+Loads per update:	3
+Stores per update:	1
+Load bytes per element:	24
+Store bytes per elem.:	8
+Load/store ratio:	3.00
+Instructions:		14843746216
+UOPs:			23437494000
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group 1: L3
++-----------------------+---------+------------+------------+------------+
+|         Event         | Counter |   Core 0   |   Core 1   |   Core 2   |
++-----------------------+---------+------------+------------+------------+
+|   INSTR_RETIRED_ANY   |  FIXC0  | 5678829098 | 5083635627 | 4959353998 |
+| CPU_CLK_UNHALTED_CORE |  FIXC1  | 8857999107 | 8496894946 | 8209643465 |
+|  CPU_CLK_UNHALTED_REF |  FIXC2  | 7835965680 | 7516669261 | 7262479425 |
+|    L2_LINES_IN_ALL    |   PMC0  |  536056785 |  520434415 |  520471795 |
+|     L2_TRANS_L2_WB    |   PMC1  |  141507136 |  126457990 |  126449578 |
++-----------------------+---------+------------+------------+------------+
+
++----------------------------+---------+-------------+------------+------------+--------------+
+|            Event           | Counter |     Sum     |     Min    |     Max    |      Avg     |
++----------------------------+---------+-------------+------------+------------+--------------+
+|   INSTR_RETIRED_ANY STAT   |  FIXC0  | 15721818723 | 4959353998 | 5678829098 |   5240606241 |
+| CPU_CLK_UNHALTED_CORE STAT |  FIXC1  | 25564537518 | 8209643465 | 8857999107 |   8521512506 |
+|  CPU_CLK_UNHALTED_REF STAT |  FIXC2  | 22615114366 | 7262479425 | 7835965680 | 7.538371e+09 |
+|    L2_LINES_IN_ALL STAT    |   PMC0  |  1576962995 |  520434415 |  536056785 | 5.256543e+08 |
+|     L2_TRANS_L2_WB STAT    |   PMC1  |   394414704 |  126449578 |  141507136 |    131471568 |
++----------------------------+---------+-------------+------------+------------+--------------+
+
++-------------------------------+-----------+-----------+-----------+
+|             Metric            |   Core 0  |   Core 1  |   Core 2  |
++-------------------------------+-----------+-----------+-----------+
+|      Runtime (RDTSC) [s]      |    4.7218 |    4.7218 |    4.7218 |
+|      Runtime unhalted [s]     |    3.8513 |    3.6943 |    3.5694 |
+|          Clock [MHz]          | 2599.9930 | 2599.9433 | 2599.9707 |
+|              CPI              |    1.5598 |    1.6714 |    1.6554 |
+|  L3 load bandwidth [MBytes/s] | 7265.7708 | 7054.0235 | 7054.5302 |
+|  L3 load data volume [GBytes] |   34.3076 |   33.3078 |   33.3102 |
+| L3 evict bandwidth [MBytes/s] | 1918.0028 | 1714.0251 | 1713.9111 |
+| L3 evict data volume [GBytes] |    9.0565 |    8.0933 |    8.0928 |
+|    L3 bandwidth [MBytes/s]    | 9183.7736 | 8768.0486 | 8768.4412 |
+|    L3 data volume [GBytes]    |   43.3641 |   41.4011 |   41.4030 |
++-------------------------------+-----------+-----------+-----------+
+
++------------------------------------+------------+-----------+-----------+-----------+
+|               Metric               |     Sum    |    Min    |    Max    |    Avg    |
++------------------------------------+------------+-----------+-----------+-----------+
+|      Runtime (RDTSC) [s] STAT      |    14.1654 |    4.7218 |    4.7218 |    4.7218 |
+|      Runtime unhalted [s] STAT     |    11.1150 |    3.5694 |    3.8513 |    3.7050 |
+|          Clock [MHz] STAT          |  7799.9070 | 2599.9433 | 2599.9930 | 2599.9690 |
+|              CPI STAT              |     4.8866 |    1.5598 |    1.6714 |    1.6289 |
+|  L3 load bandwidth [MBytes/s] STAT | 21374.3245 | 7054.0235 | 7265.7708 | 7124.7748 |
+|  L3 load data volume [GBytes] STAT |   100.9256 |   33.3078 |   34.3076 |   33.6419 |
+| L3 evict bandwidth [MBytes/s] STAT |  5345.9390 | 1713.9111 | 1918.0028 | 1781.9797 |
+| L3 evict data volume [GBytes] STAT |    25.2426 |    8.0928 |    9.0565 |    8.4142 |
+|    L3 bandwidth [MBytes/s] STAT    | 26720.2634 | 8768.0486 | 9183.7736 | 8906.7545 |
+|    L3 data volume [GBytes] STAT    |   126.1682 |   41.4011 |   43.3641 |   42.0561 |
++------------------------------------+------------+-----------+-----------+-----------+
+
