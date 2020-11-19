@@ -1,0 +1,5 @@
+WARN: Linux kernel configured with paranoid level 2
+WARN: Paranoid level 0 or root access is required to measure Uncore counters
+Sleeping longer as likwid_sleep() called without prior initialization
+Sleeping longer as likwid_sleep() called without prior initialization
+Running without Marker API. Activate Marker API with -m on commandline.

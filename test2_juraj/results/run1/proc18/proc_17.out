@@ -1,0 +1,71 @@
+Process 17
+icsnode30
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+Allocate: Process running on core 17 (Domain S1) - Vector length 15625000/125000000 Offset 0 Alignment 512
+Allocate: Process running on core 17 (Domain S1) - Vector length 15625000/125000000 Offset 0 Alignment 512
+Allocate: Process running on core 17 (Domain S1) - Vector length 15625000/125000000 Offset 0 Alignment 512
+Allocate: Process running on core 17 (Domain S1) - Vector length 15625000/125000000 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: triad
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 17 - Vector length 15625000 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			3582679690
+CPU Clock:		2299991427
+Cycle Clock:		2299991427
+Time:			1.557693e+00 sec
+Iterations:		16
+Iterations per thread:	16
+Inner loop executions:	3906250
+Size (Byte):		500000000
+Size per thread:	500000000
+Number of Flops:	500000000
+MFlops/s:		320.99
+Data volume (Byte):	8000000000
+MByte/s:		5135.80
+Cycles per update:	14.330719
+Cycles per cacheline:	114.645750
+Loads per update:	3
+Stores per update:	1
+Load bytes per element:	24
+Store bytes per elem.:	8
+Load/store ratio:	3.00
+Instructions:		1187500016
+UOPs:			1875000000
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group 1: L3
++-----------------------+---------+-------------+
+|         Event         | Counter |   Core 17   |
++-----------------------+---------+-------------+
+|   INSTR_RETIRED_ANY   |  FIXC0  |  3223967218 |
+| CPU_CLK_UNHALTED_CORE |  FIXC1  | 10247568667 |
+|  CPU_CLK_UNHALTED_REF |  FIXC2  |  9065804016 |
+|    L2_LINES_IN_ALL    |   PMC0  |   320146017 |
+|     L2_TRANS_L2_WB    |   PMC1  |    82635926 |
++-----------------------+---------+-------------+
+
++-------------------------------+-----------+
+|             Metric            |  Core 17  |
++-------------------------------+-----------+
+|      Runtime (RDTSC) [s]      |    5.1081 |
+|      Runtime unhalted [s]     |    4.4555 |
+|          Clock [MHz]          | 2599.8086 |
+|              CPI              |    3.1786 |
+|  L3 load bandwidth [MBytes/s] | 4011.1459 |
+|  L3 load data volume [GBytes] |   20.4893 |
+| L3 evict bandwidth [MBytes/s] | 1035.3549 |
+| L3 evict data volume [GBytes] |    5.2887 |
+|    L3 bandwidth [MBytes/s]    | 5046.5008 |
+|    L3 data volume [GBytes]    |   25.7780 |
++-------------------------------+-----------+
+
