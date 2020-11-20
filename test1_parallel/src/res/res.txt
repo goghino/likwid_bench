@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+Size:67108864 Stride:1048576 read+write:    13.541 ns, sec =  2.272, cycles = 5230357700 steps =      1
+
+
+--------------------------------------------------------------------------------
+Region Compute, Group 1: L3
++-------------------+----------+
+|    Region Info    |  Core 0  |
++-------------------+----------+
+| RDTSC Runtime [s] | 2.274054 |
+|     call count    |        1 |
++-------------------+----------+
+
++-----------------------+---------+------------+
+|         Event         | Counter |   Core 0   |
++-----------------------+---------+------------+
+|   INSTR_RETIRED_ANY   |  FIXC0  |  342105200 |
+| CPU_CLK_UNHALTED_CORE |  FIXC1  | 5866909000 |
+|  CPU_CLK_UNHALTED_REF |  FIXC2  | 5189931000 |
+|    L2_LINES_IN_ALL    |   PMC0  |  102276500 |
+|     L2_TRANS_L2_WB    |   PMC1  |    9735722 |
++-----------------------+---------+------------+
+
++-------------------------------+-----------+
+|             Metric            |   Core 0  |
++-------------------------------+-----------+
+|      Runtime (RDTSC) [s]      |    2.2741 |
+|      Runtime unhalted [s]     |    2.5508 |
+|          Clock [MHz]          | 2600.0409 |
+|              CPI              |   17.1494 |
+|  L3 load bandwidth [MBytes/s] | 2878.4259 |
+|  L3 load data volume [GBytes] |    6.5457 |
+| L3 evict bandwidth [MBytes/s] |  273.9980 |
+| L3 evict data volume [GBytes] |    0.6231 |
+|    L3 bandwidth [MBytes/s]    | 3152.4239 |
+|    L3 data volume [GBytes]    |    7.1688 |
++-------------------------------+-----------+
+

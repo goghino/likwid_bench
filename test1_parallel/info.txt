@@ -5,30 +5,32 @@ We can estimate our region of interest given the start of the program and durati
 The hypothesis is that bandwidth for single process is larger then when many processes run at the same time and compete for it.
 
 Setup of the experiment:
+In this test we measures the memory bandwith available on the processor during run of two or multiple single core run in parallel.
 These tests are runned on the  ICS to start study the performaces with likwid, next step would be to 
 move on these tests on the DXT cluster.
 
 
 To run the experiment run the following command:
 
-
 1. compile the membench.c file 
 
 make membench
 
-2. execute the test using timeline mode: Run the application serially on one ICS node , on Socket 0 core 0 and save the results about L3 cache bandwidth peformance into res folder:
-
+2. execute the parallel test using timeline mode : 
+Run the membench application in parallel on one ICS node, on Socket 0 core 0 and save the results about L3 cache bandwidth peformance into res folder:
+We submit two parallel jobstep with a sbatch Slurm's script:
 sbatch run_membench.sh
 
 the batch file will run :
-likwid-perfctr -C S0:0 -g L3 -t 0.5 ./membench 
+srun likwid-perfctr -C S0:0 -g L3 -t 0.5 ./membench  &
+srun likwid-perfctr -C S0:0 -g L3 -t 0.5 ./membench
 
 this means we measure the branching behavior of the machines on CPU cores 0 with a measurement every 0.5 seconds.
-The output is to stderr. So we will look at the output file membench-timeline.err. The syntax of the timeline mode output lines with a custom event set is:
+The output is to stderr. So we will look at the output files membench-timeline1.err and  membench-timeline2.err. The syntax of the timeline mode output lines with a custom event set is:
 
 <groupID> <numberOfEvents> <numberOfThreads> <Timestamp> <Event1_Thread1> <Event1_Thread2> ... <EventN_ThreadN>
 
-We visualize the L3 bandwidth using a python scritp 'plot-timeline.py'
+We visualize the L3 bandwidth of the two run using a python scritp 'plot-timeline.py'
 
 python plot-timeline.py
 

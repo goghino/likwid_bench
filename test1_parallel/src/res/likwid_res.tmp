@@ -1,0 +1,26 @@
+STRUCT,Info,3
+CPU name:,Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz,
+CPU type:,Intel Xeon Haswell EN/EP/EX processor,
+CPU clock:,2.300023457 GHz,
+TABLE,Region Compute,Group 1 Raw,L3,5
+Region Info,Core 0,
+RDTSC Runtime [s],2.281844,
+call count,1,
+Event,Counter,Core 0
+INSTR_RETIRED_ANY,FIXC0,342105200
+CPU_CLK_UNHALTED_CORE,FIXC1,5887812000
+CPU_CLK_UNHALTED_REF,FIXC2,5208423000
+L2_LINES_IN_ALL,PMC0,102331200
+L2_TRANS_L2_WB,PMC1,9405187
+TABLE,Region Compute,Group 1 Metric,L3,10
+Metric,Core 0,
+Runtime (RDTSC) [s],2.2818,
+Runtime unhalted [s],2.5599,
+Clock [MHz],2600.0395,
+CPI,17.2105,
+L3 load bandwidth [MBytes/s],2870.1335,
+L3 load data volume [GBytes],6.5492,
+L3 evict bandwidth [MBytes/s],263.7919,
+L3 evict data volume [GBytes],0.6019,
+L3 bandwidth [MBytes/s],3133.9254,
+L3 data volume [GBytes],7.1511,
