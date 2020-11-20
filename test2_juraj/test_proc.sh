@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#CLUSTER=ics
-#NODE=icsnode30
-#NCPUS=20
+CLUSTER=ics
+NODE=icsnode39
+NCPUS=20
 
-CLUSTER=dxt
-NODE=STACK-CALC1
-NCPUS=64
+#CLUSTER=dxt
+#NODE=STACK-CALC1
+#NCPUS=64
 
 # run the stream using multiple processes
 for n in `seq 0 $((NCPUS-1))`
@@ -28,9 +28,10 @@ sbatch <<-_EOF
 #SBATCH --error=results/$CLUSTER/proc$N/proc_${i}.err
 #SBATCH --nodelist=$NODE
 #SBATCH --mem=2GB
+#SBATCH --partition=debug-slim
 #//SBATCH --reservation=hpc_wednesday
 
-#module load likwid
+module load likwid
 export OMP_NUM_THREADS=1
 printf "Process $i\n"
 hostname
