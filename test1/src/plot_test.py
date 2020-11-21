@@ -12,7 +12,6 @@ def RepresentsInt(s):
         return False
 out_path="res/membench-timeline.out"
 res_path="res/membench-timeline.err"
-time_lime_mode_option=1
 
 f = open(out_path, "r")
 max_time=0
