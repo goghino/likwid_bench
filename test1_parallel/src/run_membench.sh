@@ -1,19 +1,12 @@
-#!/bin/bash -l
+#!/bin/sh
 
 #SBATCH --job-name=membench
 #SBATCH --time=00:30:00
-#SBATCH --nodes=1
-#SBATCH --ntasks=10
-#SBATCH --output=res/test_parallel.out
-#SBATCH --error=res/test_parallel.err
-#SBATCH --exclusive
+#SBATCH --nodelist=icsnode29
+#SBATCH -o ./res/out/slurm-%A_%a.out
+#SBATCH -e ./res/err/slurm-%A_%a.err 
+#SBATCH --array=0-2
 
 
+likwid-perfctr -C S0:0 -g L3 -t 0.5s  ./membench 
 
-#Time-line mode
-#for i in {1..10}
-#do
-srun likwid-perfctr -C S0:0 -g L3 -t 0.5s  ./membench &
-#done
-
-wait

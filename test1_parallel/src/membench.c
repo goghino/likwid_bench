@@ -179,6 +179,7 @@ int main ()
     printf ("Size:%7lu Stride:%7lu read+write:%10.3f ns, sec = %6.3f, cycles = %lld steps = %6.0f\n", 
             csize * sizeof (int), stride * sizeof (int), read_write, sec, cycles, (double) steps);
     fflush(stdout);
+    printf("-------------------------------------------------------------------------------------------");
     printf ("\n\n");
 	
     LIKWID_MARKER_CLOSE;
