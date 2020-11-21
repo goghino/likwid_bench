@@ -1,0 +1,3 @@
+WARN: Selected affinity domain S1 has only -1 hardware threads, but selection string evaluates to 1 threads.
+      This results in multiple threads on the same hardware thread.
+CPUs given on commandline are not valid in current environment, maybe it's limited by a cpuset.

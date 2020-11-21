@@ -1,0 +1,3 @@
+ERROR: The selected register DFC1 is in use.
+Please run likwid with force option (-f, --force) to overwrite settings
+Running without Marker API. Activate Marker API with -m on commandline.

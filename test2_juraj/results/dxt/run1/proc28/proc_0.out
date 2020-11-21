@@ -1,0 +1,72 @@
+Process 0
+STACK-CALC1
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+Allocate: Process running on core 0 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: triad
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 31250000 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			124455436180
+CPU Clock:		1996239231
+Cycle Clock:		1996239231
+Time:			6.234495e+01 sec
+Iterations:		100
+Iterations per thread:	100
+Inner loop executions:	7812500
+Size (Byte):		1000000000
+Size per thread:	1000000000
+Number of Flops:	6250000000
+MFlops/s:		100.25
+Data volume (Byte):	100000000000
+MByte/s:		1603.98
+Cycles per update:	39.825740
+Cycles per cacheline:	318.605917
+Loads per update:	3
+Stores per update:	1
+Load bytes per element:	24
+Store bytes per elem.:	8
+Load/store ratio:	3.00
+Instructions:		14843750016
+UOPs:			23437500000
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group 1: MEM
++------------------------------+---------+--------------+
+|             Event            | Counter |    Core 0    |
++------------------------------+---------+--------------+
+|       ACTUAL_CPU_CLOCK       |  FIXC1  | 204048998027 |
+|         MAX_CPU_CLOCK        |  FIXC2  | 126096151820 |
+|     RETIRED_INSTRUCTIONS     |   PMC0  |  15503869135 |
+|      CPU_CLOCKS_UNHALTED     |   PMC1  | 200009025239 |
+| DATA_FROM_LOCAL_DRAM_CHANNEL |   DFC0  |    636565978 |
+|  DATA_TO_LOCAL_DRAM_CHANNEL  |   DFC1  |    633897728 |
++------------------------------+---------+--------------+
+
++-----------------------------------+-----------+
+|               Metric              |   Core 0  |
++-----------------------------------+-----------+
+|        Runtime (RDTSC) [s]        |   64.1501 |
+|        Runtime unhalted [s]       |  102.2167 |
+|            Clock [MHz]            | 3230.3163 |
+|                CPI                |   12.9006 |
+|  Memory read bandwidth [MBytes/s] |  635.0765 |
+|  Memory read data volume [GBytes] |   40.7402 |
+| Memory write bandwidth [MBytes/s] |  632.4145 |
+| Memory write data volume [GBytes] |   40.5695 |
+|    Memory bandwidth [MBytes/s]    | 1267.4910 |
+|    Memory data volume [GBytes]    |   81.3097 |
++-----------------------------------+-----------+
+
