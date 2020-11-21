@@ -66,8 +66,16 @@ unsigned long getCPUSpeed (long nTime)
 
     long long overhead = getCPUTick () - getCPUTick ();
 
+    char text[100];
+    time_t now = time(NULL);
+    struct tm *t = localtime(&now);
+
+
+    strftime(text, sizeof(text)-1, "%d %m %Y %H:%M", t);
+    printf("Current Date: %s\n", text);
     /* Calculate Starting Time And Start Tick */
     timeStart = timeGetTime ();
+    // printf("Start: %lld",timeStart);
     while (timeGetTime () == timeStart)
         timeStart = timeGetTime();
 
