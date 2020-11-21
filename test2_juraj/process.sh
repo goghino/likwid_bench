@@ -33,7 +33,7 @@ for n in `seq 1 $nNUMA`
 do
     offseta=$(((n-1)*NUMACORES))
     offsetb=$((n*NUMACORES))
-    grep $STRING `ls -v results/$CLUSTER/proc$d/proc*` | cut -f4 | awk "NR > $offseta && NR <= $offsetb { print }" | awk '{s+=$1}; END{if (NR>0) printf "%f ", s/NR; else printf "%d ", NR}' 
+    grep $STRING `ls -v results/$CLUSTER/run1/proc$d/proc*` | cut -f4 | awk "NR > $offseta && NR <= $offsetb { print }" | awk '{s+=$1}; END{if (NR>0) printf "%f ", s/NR; else printf "%d ", NR}' 
   
 done
 

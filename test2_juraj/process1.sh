@@ -30,7 +30,7 @@ do
 printf "Overall-$d  "
 for n in `seq 0 $((d-1))`
 do
-    grep $STRING results/$CLUSTER/proc$d/proc_$n.out | awk '{printf "%s ",$2}'
+    grep $STRING results/$CLUSTER/run1/proc$d/proc_$n.out | awk '{printf "%s ",$2}'
   
 done
 
