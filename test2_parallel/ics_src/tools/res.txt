@@ -1,0 +1,29 @@
+Size:67108864 Stride:      4 read+write:     0.277 ns, sec =  1.022, cycles = -920092235 steps =     22
+Size:67108864 Stride:      8 read+write:     0.993 ns, sec =  1.167, cycles = 1644696222 steps =      7
+Size:67108864 Stride:     16 read+write:     1.787 ns, sec =  1.199, cycles = 2166039081 steps =      4
+Size:67108864 Stride:     32 read+write:     3.734 ns, sec =  1.253, cycles = 2587221226 steps =      2
+Size:67108864 Stride:     64 read+write:     7.296 ns, sec =  1.224, cycles = 2669435430 steps =      1
+Size:67108864 Stride:    128 read+write:    10.127 ns, sec =  1.699, cycles = 3762866848 steps =      1
+Size:67108864 Stride:    256 read+write:    12.819 ns, sec =  2.151, cycles = 4802652436 steps =      1
+Size:67108864 Stride:    512 read+write:    10.905 ns, sec =  1.830, cycles = 4063607984 steps =      1
+Size:67108864 Stride:   1024 read+write:    11.000 ns, sec =  1.846, cycles = 4100206722 steps =      1
+Size:67108864 Stride:   2048 read+write:    11.977 ns, sec =  2.009, cycles = 4477255529 steps =      1
+Size:67108864 Stride:   4096 read+write:    15.496 ns, sec =  2.600, cycles = 5836394811 steps =      1
+Size:67108864 Stride:   8192 read+write:    16.939 ns, sec =  2.842, cycles = 6392849298 steps =      1
+Size:67108864 Stride:  16384 read+write:    16.498 ns, sec =  2.768, cycles = 6222300624 steps =      1
+Size:67108864 Stride:  32768 read+write:    18.303 ns, sec =  3.071, cycles = 6917028878 steps =      1
+Size:67108864 Stride:  65536 read+write:    21.463 ns, sec =  3.601, cycles = 8124725488 steps =      1
+Size:67108864 Stride: 131072 read+write:    21.452 ns, sec =  3.599, cycles = 8113965788 steps =      1
+Size:67108864 Stride: 262144 read+write:    22.293 ns, sec =  3.740, cycles = 8440383008 steps =      1
+Size:67108864 Stride: 524288 read+write:    15.073 ns, sec =  2.529, cycles = 5631261761 steps =      1
+Size:67108864 Stride:1048576 read+write:    25.958 ns, sec =  4.355, cycles = 9787829838 steps =      1
+Size:67108864 Stride:2097152 read+write:    24.511 ns, sec =  4.112, cycles = 9238555238 steps =      1
+Size:67108864 Stride:4194304 read+write:    25.105 ns, sec =  4.212, cycles = 9517471859 steps =      1
+Size:67108864 Stride:8388608 read+write:     5.405 ns, sec =  1.813, cycles = 3784980655 steps =      2
+Size:67108864 Stride:16777216 read+write:     4.622 ns, sec =  1.551, cycles = 3048660586 steps =      2
+Size:67108864 Stride:33554432 read+write:     1.192 ns, sec =  1.200, cycles = 919560588 steps =      6
+
+
+read_write max stride: 262144 
+read_write max stride(bytes): 1048576 
+
