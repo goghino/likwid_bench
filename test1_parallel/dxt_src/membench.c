@@ -122,7 +122,7 @@ int main ()
     /* The CPU speed in Hz */
     unsigned long nHz = getCPUSpeed (1000);
     csize=CACHE_MAX;
-    stride=262144;
+    stride=524288;
     /* init cycles counter */
     cycles = 0;
 
@@ -176,7 +176,7 @@ int main ()
     } while (tsteps < steps);
 
     double read_write =(double) sec * 1e9 / (steps * SAMPLE * stride * ((limit - 1) / stride + 1));
-    printf ("Size:%7lu Stride:%7lu read+write:%10.3f ns, sec = %6.3f, cycles = %lld steps = %6.0f\n", 
+    printf ("Size:%lu,Stride:%lu,read+write(ns):%f,sec=%f,cycles=%lld,steps=%f\n", 
             csize * sizeof (int), stride * sizeof (int), read_write, sec, cycles, (double) steps);
     fflush(stdout);
     printf("-------------------------------------------------------------------------------------------");

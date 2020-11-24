@@ -24,7 +24,7 @@ def get_data_timeline(out_path,err_path):
     max_time=0
     for line in f:
         arr=line.split(" ")
-        # print(arr)
+        print(arr)
         if("Size:" in arr[0]):
             if(RepresentsFloat(arr[11].replace(',','')) == True):
                 max_time=float(arr[11].replace(',',''))
@@ -56,9 +56,9 @@ def get_data_timeline(out_path,err_path):
 
 
 print("Time serial run")
-time_line_serial, bandwith_list_serial = get_data_timeline("../../test1/src/res/membench-timeline.out","../../test1/src/res/membench-timeline.err")
+time_line_serial, bandwith_list_serial = get_data_timeline("../../test1_serial/dxt_src/res/membench-timeline.out","../../test1_serial/dxt_src/res/membench-timeline.err")
 print("Time parallel run1")
-time_line_parallel1, bandwith_list_parallel1 = get_data_timeline("res/out/slurm-1214488_0.out","res/err/slurm-1214488_0.err")
+time_line_parallel1, bandwith_list_parallel1 = get_data_timeline("res/out/slurm-830508_1.out","res/err/slurm-830508_1.err")
 print("Time parallel run2")
 time_line_parallel2, bandwith_list_parallel2 = get_data_timeline("task_res/test_parallel.out","task_res/test_parallel.err")
 
@@ -72,8 +72,8 @@ plt.ylabel("L3 load bandwidth [MBytes/s]")
 plt.xlabel("Time")
 # plt.yscale('log')
 plt.plot(time_line_parallel2, expand_serial, label="membench-serial")
-plt.plot(time_line_parallel2, expand_parallel1, label="membench-3-run-paralle")
-plt.plot(time_line_parallel2, expand_parallel2, label="membench-10-run-paralle")
+plt.plot(time_line_parallel2, expand_parallel1, label="membench-10-run-paralle")
+# plt.plot(time_line_parallel2, expand_parallel2, label="membench-10-run-paralle")
 plt.xticks(np.arange(min(time_line_parallel2), max(time_line_parallel2)+1, 3))
 plt.legend()
 plt.savefig('plot/plot_bandwith.png',dpi=600)

@@ -66,16 +66,8 @@ unsigned long getCPUSpeed (long nTime)
 
     long long overhead = getCPUTick () - getCPUTick ();
 
-    char text[100];
-    time_t now = time(NULL);
-    struct tm *t = localtime(&now);
-
-
-    strftime(text, sizeof(text)-1, "%d %m %Y %H:%M", t);
-    printf("Current Date: %s\n", text);
     /* Calculate Starting Time And Start Tick */
     timeStart = timeGetTime ();
-    // printf("Start: %lld",timeStart);
     while (timeGetTime () == timeStart)
         timeStart = timeGetTime();
 
@@ -122,7 +114,7 @@ int main ()
     /* The CPU speed in Hz */
     unsigned long nHz = getCPUSpeed (1000);
     csize=CACHE_MAX;
-    stride=262144;
+    stride=524288;
     /* init cycles counter */
     cycles = 0;
 
@@ -179,7 +171,6 @@ int main ()
     printf ("Size:%lu,Stride:%lu,read+write(ns):%f,sec=%f,cycles=%lld,steps=%f\n", 
             csize * sizeof (int), stride * sizeof (int), read_write, sec, cycles, (double) steps);
     fflush(stdout);
-    printf("-------------------------------------------------------------------------------------------");
     printf ("\n\n");
 	
     LIKWID_MARKER_CLOSE;

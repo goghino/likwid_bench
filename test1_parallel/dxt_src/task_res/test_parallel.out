@@ -1,120 +1,120 @@
 --------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
 --------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
 --------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
 --------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
---------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
---------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
---------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
---------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
---------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
---------------------------------------------------------------------------------
-CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
-CPU type:	Intel Xeon Haswell EN/EP/EX processor
-CPU clock:	2.30 GHz
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   131.289 ns, sec = 22.027, cycles = 51685537189 steps =      1
--------------------------------------------------------------------------------------------
-
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   131.580 ns, sec = 22.075, cycles = 51698394550 steps =      1
--------------------------------------------------------------------------------------------
-
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   133.343 ns, sec = 22.371, cycles = 52071007161 steps =      1
--------------------------------------------------------------------------------------------
-
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   131.916 ns, sec = 22.132, cycles = 52288930952 steps =      1
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3239.117 ns, sec = 543.434, cycles = 1109217128540 steps =      1
 -------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   135.412 ns, sec = 22.718, cycles = 52355834267 steps =      1
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3199.002 ns, sec = 536.703, cycles = 1114691256120 steps =      1
 -------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   131.015 ns, sec = 21.981, cycles = 52386836381 steps =      1
--------------------------------------------------------------------------------------------
-
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   135.849 ns, sec = 22.792, cycles = 52473290840 steps =      1
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3327.652 ns, sec = 558.287, cycles = 1118939729760 steps =      1
 -------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   136.299 ns, sec = 22.867, cycles = 52647215043 steps =      1
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3291.602 ns, sec = 552.239, cycles = 1119402117420 steps =      1
 -------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   132.249 ns, sec = 22.188, cycles = 52563418573 steps =      1
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3322.038 ns, sec = 557.346, cycles = 1119298925720 steps =      1
 -------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-Current Date: 21 11 2020 19:00
-Size:67108864 Stride:1048576 read+write:   136.391 ns, sec = 22.883, cycles = 52694248858 steps =      1
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3305.719 ns, sec = 554.608, cycles = 1119770263180 steps =      1
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3258.672 ns, sec = 546.714, cycles = 1119749038820 steps =      1
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3329.104 ns, sec = 558.531, cycles = 1121004746840 steps =      1
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3316.150 ns, sec = 556.358, cycles = 1121339295560 steps =      1
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 13:16
+Size:67108864 Stride:2097152 read+write:  3306.185 ns, sec = 554.686, cycles = 1122138278420 steps =      1
 -------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------

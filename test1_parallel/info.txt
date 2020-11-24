@@ -35,3 +35,13 @@ We visualize the L3 bandwidth of the two run using a python scritp 'plot-timelin
 python plot-timeline.py
 
 the image plot is saved into plot/ folder.
+
+max_stride_ics_node=> Stride:1048576
+
+-- Test on dxt cluster --------------------------------
+
+max_stride_dxt_node=> Stride:2097152
+
+We noticed that with same amount of stride the dxt cluster takes much more than ics cluster:
+ICS:  Size:67108864 Stride:1048576 read+write:    25.958 ns, sec =  4.355, cycles = 9787829838 steps =      1
+DXT:  Size:67108864 Stride:1048576 read+write:   286.365 ns, sec = 48.044, cycles = 143766541170 steps =      1
