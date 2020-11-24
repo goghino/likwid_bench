@@ -6,8 +6,8 @@ CPU clock:	2.30 GHz
 --------------------------------------------------------------------------------
 # Cores: 0
 # GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
-Current Date: 24 11 2020 19:30
-Size:67108864 Stride:1048576 read+write:    16.959 ns, sec =  2.845, cycles = 6550644276 steps =      1
+Current Date: 24 11 2020 19:31
+Size:67108864,Stride:1048576,read+write(ns):18.353118,sec=3.079142,cycles=7089239802,steps=1.000000
 -------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------

@@ -1,13 +1,13 @@
-Core 2
+Core 1
 --------------------------------------------------------------------------------
 CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
 CPU type:	Intel Xeon Haswell EN/EP/EX processor
 CPU clock:	2.30 GHz
 --------------------------------------------------------------------------------
-# Cores: 2
+# Cores: 1
 # GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
-Current Date: 24 11 2020 19:30
-Size:67108864 Stride:1048576 read+write:    18.079 ns, sec =  3.033, cycles = 6983508449 steps =      1
+Current Date: 24 11 2020 19:31
+Size:67108864,Stride:1048576,read+write(ns):16.567348,sec=2.779540,cycles=6399452428,steps=1.000000
 -------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
