@@ -77,7 +77,7 @@ expand_parallel1=np.append(bandwith_list_parallel1,np.zeros(len(time_line_parall
 # print(len(expand_serial))
 # print(len(expand_parallel))
 # print(len(time_line_parallel))
-plt.ylabel(TEST+" bandwidth [MBytes/s]")
+plt.ylabel(TEST+" access bandwidth [MBytes/s]")
 plt.xlabel("Time")
 # plt.yscale('log')
 plt.plot(time_line_parallel1, expand_serial, label="membench-serial S0:0")

@@ -111,7 +111,7 @@ for i in range(0,len(expand_parallel)):
     print(len(expand_parallel[i]))
     plt.plot(max_timeline, expand_parallel[i], label="S0:Core"+str(i))
 # plt.plot(time_line_parallel2, expand_parallel2, label="membench-10-run-paralle")
-plt.xticks(np.arange(min(max_timeline), max(max_timeline)+1, 10))
+plt.xticks(np.arange(min(max_timeline), max(max_timeline)+1, 20))
 plt.legend()
 plt.savefig('plot/plot_bandwith_'+TEST+'.png',dpi=600)
 plt.show()
