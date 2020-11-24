@@ -4,8 +4,8 @@ import sys
 
 from numpy.lib.function_base import append
 
-# TEST="MEM"
-TEST="L3"
+TEST="MEM"
+# TEST="L3"
 
 
 def RepresentsInt(s):
@@ -67,7 +67,10 @@ def get_data_timeline(out_path,err_path):
 print("Time serial run")
 time_line_serial, bandwith_list_serial = get_data_timeline("../../test1_serial/dxt_src/res/"+TEST+"/membench-timeline.out","../../test1_serial/dxt_src/res/"+TEST+"/membench-timeline.err")
 print("Time parallel run")
-time_line_parallel1, bandwith_list_parallel1 = get_data_timeline("res/"+TEST+"/out/slurm-833614_0.out","res/"+TEST+"/err/slurm-833614_0.err")
+if(TEST=="MEM"):
+    time_line_parallel1, bandwith_list_parallel1 = get_data_timeline("res/"+TEST+"/out/slurm-833100_0.out","res/"+TEST+"/err/slurm-833100_0.err")
+else:
+    time_line_parallel1, bandwith_list_parallel1 = get_data_timeline("res/"+TEST+"/out/slurm-833614_0.out","res/"+TEST+"/err/slurm-833614_0.err")
 # print("Time parallel run2")
 # time_line_parallel2, bandwith_list_parallel2 = get_data_timeline("task_res/test_parallel.out","task_res/test_parallel.err")
 
@@ -83,7 +86,7 @@ plt.xlabel("Time")
 plt.plot(time_line_parallel1, expand_serial, label="membench-serial S0:0")
 plt.plot(time_line_parallel1, expand_parallel1, label="membench-10-run-parallel S0:0")
 # plt.plot(time_line_parallel2, expand_parallel2, label="membench-10-run-paralle")
-plt.xticks(np.arange(min(time_line_parallel1), max(time_line_parallel1)+1, 3))
+plt.xticks(np.arange(min(time_line_parallel1), max(time_line_parallel1)+1, 15))
 plt.legend()
 plt.savefig('plot/plot_bandwith_'+TEST+'.png',dpi=600)
 plt.show()
