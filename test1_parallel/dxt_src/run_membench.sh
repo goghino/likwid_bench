@@ -4,8 +4,8 @@
 #SBATCH --time=00:30:00
 #SBATCH -p high
 #SBATCH --nodelist=STACK-CALC1
-#SBATCH -o ./res/out/slurm-%A_%a.out
-#SBATCH -e ./res/err/slurm-%A_%a.err 
+#SBATCH -o ./res/L3/out/slurm-%A_%a.out
+#SBATCH -e ./res/L3/err/slurm-%A_%a.err 
 #SBATCH --array=0-9
 
 
