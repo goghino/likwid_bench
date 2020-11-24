@@ -4,8 +4,8 @@ import sys
 
 from numpy.lib.function_base import append
 
-TEST="MEM"
-# TEST="L3"
+# TEST="MEM"
+TEST="L3"
 
 
 def RepresentsInt(s):

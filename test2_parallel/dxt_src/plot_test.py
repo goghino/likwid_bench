@@ -7,8 +7,8 @@ import sys
 from numpy.lib.function_base import append
 
 
-# TEST="MEM"
-TEST="L3"
+TEST="MEM"
+# TEST="L3"
 
 mypath_out="res/"+TEST+"/out/"
 mypath_err="res/"+TEST+"/err/"
