@@ -72,7 +72,7 @@ expand_parallel2=np.append(bandwith_list_parallel2,np.zeros(len(time_line_parall
 # print(len(expand_serial))
 # print(len(expand_parallel))
 # print(len(time_line_parallel))
-plt.ylabel("L3 load bandwidth [MBytes/s]")
+plt.ylabel("MEM load bandwidth [MBytes/s]")
 plt.xlabel("Time")
 # plt.yscale('log')
 plt.plot(time_line_parallel2, expand_serial, label="Serial- S0:Core0")

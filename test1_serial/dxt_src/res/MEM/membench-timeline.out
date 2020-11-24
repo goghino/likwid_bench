@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+Size:67108864,Stride:2097152,read+write(ns):335.735198,sec=56.327019,cycles=112554750600,steps=1.000000
+
+
+--------------------------------------------------------------------------------

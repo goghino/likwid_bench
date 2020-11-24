@@ -9,9 +9,5 @@
 #SBATCH --exclusive
 
 
-
-#likwid-perfctr -C S0:1 -g BRANCH -g L3 -O  -o likwid_res ./membench
-# Maker API
-#likwid-perfctr -C S0:0 -g L3  -m  ./membench
 #Time-line mode
-likwid-perfctr -C S0:0 -g L3 -t 0.5s ./membench 
+likwid-perfctr -C S0:0 -g MEM -t 0.5s ./membench
