@@ -16,6 +16,10 @@ else
 fi
 ```
 
+![Multiprocess run ICS cluster - bandwidth](results/ics/results_bandwidth.png)
+![Multiprocess run ICS cluster - bandwidth](results/ics/results_bandwidth1.png)
+![Multiprocess run ICS cluster - time](results/ics/results_cpu0.png)
+![Multiprocess run ICS cluster - time](results/ics/results_time.png)
 ![Multiprocess run ICS cluster](results/ics/results_proc.png)
 
 ## Running multithreaded process
