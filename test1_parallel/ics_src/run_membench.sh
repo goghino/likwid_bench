@@ -8,5 +8,5 @@
 #SBATCH --array=0-2
 
 
-likwid-perfctr -C S0:0 -g MEM -t 0.5s  ./membench 
+likwid-perfctr -C S0:0 -g L3 -t 0.5s  ./membench 
 

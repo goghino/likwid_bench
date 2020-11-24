@@ -4,9 +4,9 @@ CPU type:	Intel Xeon Haswell EN/EP/EX processor
 CPU clock:	2.30 GHz
 --------------------------------------------------------------------------------
 # Cores: 0
-# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
-Current Date: 24 11 2020 17:32
-Size:67108864,Stride:1048576,read+write(ns):39.986794,sec=6.708671,cycles=15525124440,steps=1.000000
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 load bandwidth [MBytes/s]|L3 load data volume [GBytes]|L3 evict bandwidth [MBytes/s]|L3 evict data volume [GBytes]|L3 bandwidth [MBytes/s]|L3 data volume [GBytes]
+Current Date: 24 11 2020 19:19
+Size:67108864,Stride:1048576,read+write(ns):40.273966,sec=6.756850,cycles=15556414545,steps=1.000000
 -------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
