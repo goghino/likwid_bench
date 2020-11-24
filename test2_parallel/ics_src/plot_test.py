@@ -33,13 +33,11 @@ def get_data_timeline(out_path,err_path):
     f = open(out_path, "r")
     max_time=0
     for line in f:
-        arr=line.split(" ")
-        # print(arr)
+        arr=line.split(",")
         if("Size:" in arr[0]):
-            if(RepresentsFloat(arr[11].replace(',','')) == True):
-                max_time=float(arr[11].replace(',',''))
-            else:
-                max_time=float(arr[9].replace(',',''))
+            # print(arr)
+            if(RepresentsFloat(arr[3].replace('sec=','')) == True):
+                max_time=float(arr[3].replace('sec=',''))
             break
 
     f.close()
@@ -60,7 +58,6 @@ def get_data_timeline(out_path,err_path):
 
 
     f.close()
-    print(count)
     print(bandwith_list)
     return time_line,bandwith_list
 
@@ -72,7 +69,7 @@ print("Time parallel run")
 time_line_parallel=[]
 bandwith_list_parallel=[]
 for i in range(0,len(out_files)):
-    # print(out_files[i])
+    print(out_files[i])
     # print(err_files[i])
     time_line_parallel0, bandwith_list_parallel0 = get_data_timeline(mypath_out+out_files[i],mypath_err+err_files[i])
     time_line_parallel.append(time_line_parallel0)
