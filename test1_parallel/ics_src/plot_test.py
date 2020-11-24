@@ -40,7 +40,7 @@ def get_data_timeline(out_path,err_path):
     bandwith_list=[]
     count=len(time_line)
     for line in f:
-        print(line)
+        # print(line)
         arr=line.split(" ")
         if( RepresentsInt(arr[0]) and count!=0):
             bandwith_list=  append(bandwith_list,float(arr[8]))
@@ -50,7 +50,6 @@ def get_data_timeline(out_path,err_path):
 
 
     f.close()
-    print(count)
     print(bandwith_list)
     return time_line,bandwith_list
 
@@ -58,7 +57,7 @@ def get_data_timeline(out_path,err_path):
 print("Time serial run")
 time_line_serial, bandwith_list_serial = get_data_timeline("../../test1_serial/ics_src/res/membench-timeline.out","../../test1_serial/ics_src/res/membench-timeline.err")
 print("Time parallel run1")
-time_line_parallel1, bandwith_list_parallel1 = get_data_timeline("res/"+TEST+"/out/slurm-1216045_0.out","res/"+TEST+"/err/slurm-1216045_0.err")
+time_line_parallel1, bandwith_list_parallel1 = get_data_timeline("res/"+TEST+"/out/slurm-1216092_0.out","res/"+TEST+"/err/slurm-1216092_0.err")
 print("Time parallel run2")
 time_line_parallel2, bandwith_list_parallel2 = get_data_timeline("task_res/"+TEST+"/test_parallel.out","task_res/"+TEST+"/test_parallel.err")
 
@@ -68,7 +67,7 @@ expand_parallel2=np.append(bandwith_list_parallel2,np.zeros(len(time_line_parall
 # print(len(expand_serial))
 # print(len(expand_parallel))
 # print(len(time_line_parallel))
-plt.ylabel(TEST+" access bandwidth [MBytes/s]")
+plt.ylabel(TEST+" load bandwidth [MBytes/s]")
 plt.xlabel("Time")
 # plt.yscale('log')
 plt.plot(time_line_parallel2, expand_serial, label="membench-serial")
