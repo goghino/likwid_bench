@@ -4,8 +4,8 @@ import sys
 
 from numpy.lib.function_base import append
 
-# TEST="MEM"
-TEST="L3"
+TEST="MEM"
+# TEST="L3"
 
 
 def RepresentsInt(s):
@@ -83,8 +83,8 @@ expand_parallel1=np.append(bandwith_list_parallel1,np.zeros(len(time_line_parall
 plt.ylabel(TEST+" access bandwidth [MBytes/s]")
 plt.xlabel("Time")
 # plt.yscale('log')
-plt.plot(time_line_parallel1, expand_serial, label="membench-serial S0:0")
-plt.plot(time_line_parallel1, expand_parallel1, label="membench-10-run-parallel S0:0")
+plt.semilogy(time_line_parallel1, expand_serial, label="membench-serial S0:0")
+plt.semilogy(time_line_parallel1, expand_parallel1, label="membench-10-run-parallel S0:0")
 # plt.plot(time_line_parallel2, expand_parallel2, label="membench-10-run-paralle")
 plt.xticks(np.arange(min(time_line_parallel1), max(time_line_parallel1)+1, 15))
 plt.legend()

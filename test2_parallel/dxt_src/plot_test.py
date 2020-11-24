@@ -66,7 +66,7 @@ def get_data_timeline(out_path,err_path):
 
 
     f.close()
-    # print(bandwith_list)c
+    # print(bandwith_list)
     return time_line,bandwith_list
 
 
@@ -81,7 +81,8 @@ for i in range(0,len(out_files)):
     time_line_parallel0, bandwith_list_parallel0 = get_data_timeline(mypath_out+out_files[i],mypath_err+err_files[i])
     time_line_parallel.append(time_line_parallel0)
     bandwith_list_parallel.append(bandwith_list_parallel0)
-    
+
+# print(bandwith_list_parallel[0])
 # print(time_line_parallel)
 max_len_timeline=0
 max_timeline=[]
@@ -92,7 +93,7 @@ for time_line in time_line_parallel:
 
 
 expand_serial=np.append(bandwith_list_serial,np.zeros(max_len_timeline-len(bandwith_list_serial)) ) 
-print(max_len_timeline)
+# print(max_len_timeline)
 expand_parallel=[]
 for bandwith in  bandwith_list_parallel:
     expand_parallel.append(np.append( bandwith ,np.zeros(max_len_timeline-len(bandwith)) )) 
@@ -106,10 +107,10 @@ plt.ylabel(TEST+" bandwidth [MBytes/s]")
 plt.xlabel("Time")
 # plt.yscale('log')
 
-plt.plot(max_timeline, expand_serial, label="Serial- S0:Core0")
+plt.semilogy(max_timeline, expand_serial, label="Serial- S0:Core0")
 for i in range(0,len(expand_parallel)):
-    print(len(expand_parallel[i]))
-    plt.plot(max_timeline, expand_parallel[i], label="S0:Core"+str(i))
+    # print(len(expand_parallel[i]))
+    plt.semilogy(max_timeline, expand_parallel[i], label="S0:Core"+str(i))
 # plt.plot(time_line_parallel2, expand_parallel2, label="membench-10-run-paralle")
 plt.xticks(np.arange(min(max_timeline), max(max_timeline)+1, 20))
 plt.legend()
