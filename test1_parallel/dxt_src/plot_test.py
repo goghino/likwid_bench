@@ -66,7 +66,7 @@ def get_data_timeline(out_path,err_path):
 
 print("Time serial run")
 time_line_serial, bandwith_list_serial = get_data_timeline("../../test1_serial/dxt_src/res/"+TEST+"/membench-timeline.out","../../test1_serial/dxt_src/res/"+TEST+"/membench-timeline.err")
-print("Time parallel run1")
+print("Time parallel run")
 time_line_parallel1, bandwith_list_parallel1 = get_data_timeline("res/"+TEST+"/out/slurm-833614_0.out","res/"+TEST+"/err/slurm-833614_0.err")
 # print("Time parallel run2")
 # time_line_parallel2, bandwith_list_parallel2 = get_data_timeline("task_res/test_parallel.out","task_res/test_parallel.err")

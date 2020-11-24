@@ -1,0 +1,13 @@
+Core 3
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+# Cores: 3
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|L3 access bandwidth [MBytes/s]|L3 access data volume [GBytes]|L3 access rate [%]|L3 miss rate [%]|L3 miss ratio [%]
+Current Date: 24 11 2020 16:06
+Size:67108864,Stride:1048576,read+write(ns):1637.320315,sec=274.696766,cycles=548908576240,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
