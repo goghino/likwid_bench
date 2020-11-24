@@ -1,0 +1,120 @@
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):131.969391,sec=22.140790,cycles=51310524163,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):132.947997,sec=22.304973,cycles=51998431549,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):129.725068,sec=21.764255,cycles=51860646940,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):133.959522,sec=22.474678,cycles=52446183408,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):134.508214,sec=22.566734,cycles=52505363376,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):135.493561,sec=22.732047,cycles=52680822746,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):135.410651,sec=22.718137,cycles=52805400852,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):132.379985,sec=22.209676,cycles=52849291511,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):133.785229,sec=22.445437,cycles=52842633545,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Current Date: 24 11 2020 17:32
+Size:67108864,Stride:1048576,read+write(ns):135.226410,sec=22.687227,cycles=52994530559,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+CPU type:	Intel Xeon Haswell EN/EP/EX processor
+CPU clock:	2.30 GHz
+--------------------------------------------------------------------------------
+# Cores: 0
+# GID|MetricsCount|CpuCount|Total runtime [s]|Runtime (RDTSC) [s]|Runtime unhalted [s]|Clock [MHz]|CPI|Memory read bandwidth [MBytes/s]|Memory read data volume [GBytes]|Memory write bandwidth [MBytes/s]|Memory write data volume [GBytes]|Memory bandwidth [MBytes/s]|Memory data volume [GBytes]
+Current Date: 24 11 2020 17:31
+Size:67108864,Stride:1048576,read+write(ns):39.420368,sec=6.613640,cycles=15426868427,steps=1.000000
+-------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
