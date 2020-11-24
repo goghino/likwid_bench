@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=membench
 #SBATCH --time=00:30:00
-#SBATCH --nodelist=icsnode25
+#SBATCH --nodelist=icsnode21
 #SBATCH -o ./res/out/slurm-%A_%a.out
 #SBATCH -e ./res/err/slurm-%A_%a.err 
 #SBATCH --array=0-2
