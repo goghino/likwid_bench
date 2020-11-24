@@ -10,16 +10,24 @@ def RepresentsInt(s):
         return True
     except ValueError:
         return False
+
+def RepresentsFloat(s):
+    try: 
+        float(s)
+        return True
+    except ValueError:
+        return False
 out_path="res/membench-timeline.out"
 res_path="res/membench-timeline.err"
 
 f = open(out_path, "r")
 max_time=0
 for line in f:
-    arr=line.split(" ")
-    # print(arr)
+    arr=line.split(",")
     if("Size:" in arr[0]):
-        max_time=float(arr[11].replace(',',''))
+        if(RepresentsFloat(arr[3].replace('sec=','')) == True):
+            max_time=float(arr[3].replace('sec=',''))
+        break
 
 f.close()
 
