@@ -7,8 +7,8 @@ import sys
 from numpy.lib.function_base import append
 
 
-TEST="MEM"
-# TEST="L3"
+# TEST="MEM"
+TEST="L3"
 
 mypath_out="res/"+TEST+"/out/"
 mypath_err="res/"+TEST+"/err/"
@@ -53,13 +53,14 @@ def get_data_timeline(out_path,err_path):
     count=len(time_line)
     id_mem_bandwidth=12
     id_l3_cache=8
+    num_cores=10
     for line in f:
         arr=line.split(" ")
         if( RepresentsInt(arr[0]) and count!=0):
             if(TEST=="MEM"):
                 bandwith_list=  append(bandwith_list,float(arr[id_mem_bandwidth]))
             elif (TEST=="L3"):
-                bandwith_list=  append(bandwith_list,float(arr[id_l3_cache]))
+                bandwith_list=  append(bandwith_list,float(arr[id_l3_cache])/num_cores)
             count-=1
         if(count==0):
             break
