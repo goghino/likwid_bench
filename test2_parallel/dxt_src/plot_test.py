@@ -108,7 +108,7 @@ plt.ylabel(TEST+" bandwidth [MBytes/s]")
 plt.xlabel("Time")
 # plt.yscale('log')
 
-plt.semilogy(max_timeline, expand_serial, label="Serial- S0:Core0")
+plt.semilogy(max_timeline, expand_serial, label="Serial- S0:Core0",color='red')
 for i in range(0,len(expand_parallel)):
     # print(len(expand_parallel[i]))
     plt.semilogy(max_timeline, expand_parallel[i], label="S0:Core"+str(i))
