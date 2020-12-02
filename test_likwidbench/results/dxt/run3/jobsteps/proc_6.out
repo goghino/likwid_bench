@@ -1,0 +1,422 @@
+Process batch size 6
+STACK-CALC1
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+--------------------------------------------------------------------------------
+CPU name:	AMD EPYC 7702 64-Core Processor                
+CPU type:	AMD K17 (Zen2) architecture
+CPU clock:	2.00 GHz
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Allocate: Process running on core 5 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 5 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 5 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 5 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: triad
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 5 - Vector length 31250000 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			28067357680
+CPU Clock:		1996249650
+Cycle Clock:		1996249650
+Time:			1.406004e+01 sec
+Iterations:		100
+Iterations per thread:	100
+Inner loop executions:	7812500
+Size (Byte):		1000000000
+Size per thread:	1000000000
+Number of Flops:	6250000000
+MFlops/s:		444.52
+Data volume (Byte):	100000000000
+MByte/s:		7112.35
+Cycles per update:	8.981554
+Cycles per cacheline:	71.852436
+Loads per update:	3
+Stores per update:	1
+Load bytes per element:	24
+Store bytes per elem.:	8
+Load/store ratio:	3.00
+Instructions:		14843750016
+UOPs:			23437500000
+--------------------------------------------------------------------------------
+Allocate: Process running on core 4 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 4 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 4 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 4 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: triad
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 4 - Vector length 31250000 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			28062991500
+CPU Clock:		1996245178
+Cycle Clock:		1996245178
+Time:			1.405789e+01 sec
+Iterations:		100
+Iterations per thread:	100
+Inner loop executions:	7812500
+Size (Byte):		1000000000
+Size per thread:	1000000000
+Number of Flops:	6250000000
+MFlops/s:		444.59
+Data volume (Byte):	100000000000
+MByte/s:		7113.44
+Cycles per update:	8.980157
+Cycles per cacheline:	71.841258
+Loads per update:	3
+Stores per update:	1
+Load bytes per element:	24
+Store bytes per elem.:	8
+Load/store ratio:	3.00
+Instructions:		14843750016
+UOPs:			23437500000
+--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Group 1: MEMGroup 1: MEM
+
++------------------------------+---------+-------------+
++------------------------------+---------+-------------+
+|             Event            | Counter |    Core 5   |
+|             Event            | Counter |    Core 4   |+------------------------------+---------+-------------+
+
++------------------------------+---------+-------------+
+|       ACTUAL_CPU_CLOCK       |  FIXC1  | 45203789024 |
+|       ACTUAL_CPU_CLOCK       |  FIXC1  | 45204626708 |
+|         MAX_CPU_CLOCK        |  FIXC2  | 29212955060 |
+|         MAX_CPU_CLOCK        |  FIXC2  | 29212702540 |
+|     RETIRED_INSTRUCTIONS     |   PMC0  | 15503732282 |
+|     RETIRED_INSTRUCTIONS     |   PMC0  | 15503731389 |
+|      CPU_CLOCKS_UNHALTED     |   PMC1  | 44079846161 |
+|      CPU_CLOCKS_UNHALTED     |   PMC1  | 44065158460 |
+| DATA_FROM_LOCAL_DRAM_CHANNEL |   DFC0  |   226615298 |
+| DATA_FROM_LOCAL_DRAM_CHANNEL |   DFC0  |   226615298 |
+|  DATA_TO_LOCAL_DRAM_CHANNEL  |   DFC1  |   226594611 |
++------------------------------+---------+-------------+
+
+|  DATA_TO_LOCAL_DRAM_CHANNEL  |   DFC1  |   226594611 |
++------------------------------+---------+-------------+
+
++-----------------------------------+-----------+
++-----------------------------------+-----------+
+|               Metric              |   Core 5  |
++-----------------------------------+-----------+
+|               Metric              |   Core 4  |
++-----------------------------------+-----------+
+|        Runtime (RDTSC) [s]        |   15.6529 |
+|        Runtime (RDTSC) [s]        |   15.6529 |
+|        Runtime unhalted [s]       |   22.6444 |
+|        Runtime unhalted [s]       |   22.6448 |
+|            Clock [MHz]            | 3088.9719 |
+|            Clock [MHz]            | 3089.0542 |
+|                CPI                |    2.8432 |
+|                CPI                |    2.8422 |
+|  Memory read bandwidth [MBytes/s] |  926.5623 |
+|  Memory read bandwidth [MBytes/s] |  926.5639 |
+|  Memory read data volume [GBytes] |   14.5034 |
+|  Memory read data volume [GBytes] |   14.5034 |
+| Memory write bandwidth [MBytes/s] |  926.4777 |
+| Memory write bandwidth [MBytes/s] |  926.4793 |
+| Memory write data volume [GBytes] |   14.5021 |
+| Memory write data volume [GBytes] |   14.5021 |
+|    Memory bandwidth [MBytes/s]    | 1853.0400 |
+|    Memory bandwidth [MBytes/s]    | 1853.0433 |
+|    Memory data volume [GBytes]    |   29.0054 |
++-----------------------------------+-----------+
+|    Memory data volume [GBytes]    |   29.0054 |
+
++-----------------------------------+-----------+
+
+Allocate: Process running on core 1 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 1 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 1 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 1 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: triad
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 1 - Vector length 31250000 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			41384488220
+CPU Clock:		1996249850
+Cycle Clock:		1996249850
+Time:			2.073112e+01 sec
+Iterations:		100
+Iterations per thread:	100
+Inner loop executions:	7812500
+Size (Byte):		1000000000
+Size per thread:	1000000000
+Number of Flops:	6250000000
+MFlops/s:		301.48
+Data volume (Byte):	100000000000
+MByte/s:		4823.67
+Cycles per update:	13.243036
+Cycles per cacheline:	105.944290
+Loads per update:	3
+Stores per update:	1
+Load bytes per element:	24
+Store bytes per elem.:	8
+Load/store ratio:	3.00
+Instructions:		14843750016
+UOPs:			23437500000
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group 1: MEM
++------------------------------+---------+-------------+
+|             Event            | Counter |    Core 1   |
++------------------------------+---------+-------------+
+|       ACTUAL_CPU_CLOCK       |  FIXC1  | 68070273921 |
+|         MAX_CPU_CLOCK        |  FIXC2  | 42891987400 |
+|     RETIRED_INSTRUCTIONS     |   PMC0  | 15503736536 |
+|      CPU_CLOCKS_UNHALTED     |   PMC1  | 66234169177 |
+| DATA_FROM_LOCAL_DRAM_CHANNEL |   DFC0  |      -      |
+|  DATA_TO_LOCAL_DRAM_CHANNEL  |   DFC1  |      -      |
++------------------------------+---------+-------------+
+
++-----------------------------------+-----------+
+|               Metric              |   Core 1  |
++-----------------------------------+-----------+
+|        Runtime (RDTSC) [s]        |   22.4966 |
+|        Runtime unhalted [s]       |   34.0991 |
+|            Clock [MHz]            | 3168.0810 |
+|                CPI                |    4.2721 |
+|  Memory read bandwidth [MBytes/s] |         0 |
+|  Memory read data volume [GBytes] |         0 |
+| Memory write bandwidth [MBytes/s] |         0 |
+| Memory write data volume [GBytes] |         0 |
+|    Memory bandwidth [MBytes/s]    |         0 |
+|    Memory data volume [GBytes]    |         0 |
++-----------------------------------+-----------+
+
+Allocate: Process running on core 0 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: triad
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 31250000 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			41409528900
+CPU Clock:		1996248465
+Cycle Clock:		1996248465
+Time:			2.074367e+01 sec
+Iterations:		100
+Iterations per thread:	100
+Inner loop executions:	7812500
+Size (Byte):		1000000000
+Size per thread:	1000000000
+Number of Flops:	6250000000
+MFlops/s:		301.30
+Data volume (Byte):	100000000000
+MByte/s:		4820.75
+Cycles per update:	13.251049
+Cycles per cacheline:	106.008394
+Loads per update:	3
+Stores per update:	1
+Load bytes per element:	24
+Store bytes per elem.:	8
+Load/store ratio:	3.00
+Instructions:		14843750016
+UOPs:			23437500000
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group 1: MEM
++------------------------------+---------+-------------+
+|             Event            | Counter |    Core 0   |
++------------------------------+---------+-------------+
+|       ACTUAL_CPU_CLOCK       |  FIXC1  | 68203789036 |
+|         MAX_CPU_CLOCK        |  FIXC2  | 42929341000 |
+|     RETIRED_INSTRUCTIONS     |   PMC0  | 15503736345 |
+|      CPU_CLOCKS_UNHALTED     |   PMC1  | 66340833556 |
+| DATA_FROM_LOCAL_DRAM_CHANNEL |   DFC0  |      -      |
+|  DATA_TO_LOCAL_DRAM_CHANNEL  |   DFC1  |      -      |
++------------------------------+---------+-------------+
+
++-----------------------------------+-----------+
+|               Metric              |   Core 0  |
++-----------------------------------+-----------+
+|        Runtime (RDTSC) [s]        |   22.5144 |
+|        Runtime unhalted [s]       |   34.1660 |
+|            Clock [MHz]            | 3171.5273 |
+|                CPI                |    4.2790 |
+|  Memory read bandwidth [MBytes/s] |         0 |
+|  Memory read data volume [GBytes] |         0 |
+| Memory write bandwidth [MBytes/s] |         0 |
+| Memory write data volume [GBytes] |         0 |
+|    Memory bandwidth [MBytes/s]    |         0 |
+|    Memory data volume [GBytes]    |         0 |
++-----------------------------------+-----------+
+
+Allocate: Process running on core 3 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 3 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 3 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 3 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: triad
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 3 - Vector length 31250000 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			41506608860
+CPU Clock:		1996248475
+Cycle Clock:		1996248475
+Time:			2.079231e+01 sec
+Iterations:		100
+Iterations per thread:	100
+Inner loop executions:	7812500
+Size (Byte):		1000000000
+Size per thread:	1000000000
+Number of Flops:	6250000000
+MFlops/s:		300.59
+Data volume (Byte):	100000000000
+MByte/s:		4809.47
+Cycles per update:	13.282115
+Cycles per cacheline:	106.256919
+Loads per update:	3
+Stores per update:	1
+Load bytes per element:	24
+Store bytes per elem.:	8
+Load/store ratio:	3.00
+Instructions:		14843750016
+UOPs:			23437500000
+--------------------------------------------------------------------------------
+Allocate: Process running on core 2 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 2 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 2 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+Allocate: Process running on core 2 (Domain S0) - Vector length 31250000/250000000 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: triad
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 1 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 2 - Vector length 31250000 Offset 0
+--------------------------------------------------------------------------------
+Cycles:			41508480180
+CPU Clock:		1996251449
+Cycle Clock:		1996251449
+Time:			2.079321e+01 sec
+Iterations:		100
+Iterations per thread:	100
+Inner loop executions:	7812500
+Size (Byte):		1000000000
+Size per thread:	1000000000
+Number of Flops:	6250000000
+MFlops/s:		300.58
+Data volume (Byte):	100000000000
+MByte/s:		4809.26
+Cycles per update:	13.282714
+Cycles per cacheline:	106.261709
+Loads per update:	3
+Stores per update:	1
+Load bytes per element:	24
+Store bytes per elem.:	8
+Load/store ratio:	3.00
+Instructions:		14843750016
+UOPs:			23437500000
+--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Group 1: MEM
+Group 1: MEM
++------------------------------+---------+-------------++------------------------------+---------+-------------+
+
+|             Event            | Counter |    Core 3   |
++------------------------------+---------+-------------+
+|             Event            | Counter |    Core 2   |
++------------------------------+---------+-------------+
+|       ACTUAL_CPU_CLOCK       |  FIXC1  | 68009541452 |
+|       ACTUAL_CPU_CLOCK       |  FIXC1  | 68097938878 |
+|         MAX_CPU_CLOCK        |  FIXC2  | 43017312580 |
+|         MAX_CPU_CLOCK        |  FIXC2  | 43031075400 |
+|     RETIRED_INSTRUCTIONS     |   PMC0  | 15503735999 |
+|     RETIRED_INSTRUCTIONS     |   PMC0  | 15503735510 |
+|      CPU_CLOCKS_UNHALTED     |   PMC1  | 66194593013 |
+|      CPU_CLOCKS_UNHALTED     |   PMC1  | 66291584538 |
+| DATA_FROM_LOCAL_DRAM_CHANNEL |   DFC0  |      -      |
+| DATA_FROM_LOCAL_DRAM_CHANNEL |   DFC0  |      -      |
+|  DATA_TO_LOCAL_DRAM_CHANNEL  |   DFC1  |      -      |
++------------------------------+---------+-------------+
+
+|  DATA_TO_LOCAL_DRAM_CHANNEL  |   DFC1  |      -      |
++------------------------------+---------+-------------+
+
++-----------------------------------+-----------+
++-----------------------------------+-----------+
+|               Metric              |   Core 3  |
++-----------------------------------+-----------+
+|               Metric              |   Core 2  |
++-----------------------------------+-----------+
+|        Runtime (RDTSC) [s]        |   22.5596 |
+|        Runtime (RDTSC) [s]        |   22.5703 |
+|        Runtime unhalted [s]       |   34.0689 |
+|        Runtime unhalted [s]       |   34.1130 |
+|            Clock [MHz]            | 3156.0095 |
+|            Clock [MHz]            | 3159.1201 |
+|                CPI                |    4.2696 |
+|                CPI                |    4.2758 |
+|  Memory read bandwidth [MBytes/s] |         0 |
+|  Memory read bandwidth [MBytes/s] |         0 |
+|  Memory read data volume [GBytes] |         0 |
+|  Memory read data volume [GBytes] |         0 |
+| Memory write bandwidth [MBytes/s] |         0 |
+| Memory write bandwidth [MBytes/s] |         0 || Memory write data volume [GBytes] |         0 |
+
+|    Memory bandwidth [MBytes/s]    |         0 || Memory write data volume [GBytes] |         0 |
+
+|    Memory bandwidth [MBytes/s]    |         0 |
+|    Memory data volume [GBytes]    |         0 |
++-----------------------------------+-----------+
+
+|    Memory data volume [GBytes]    |         0 |
++-----------------------------------+-----------+
+

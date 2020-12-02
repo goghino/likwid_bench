@@ -5,8 +5,8 @@ NCPUS=64
 NUMACORES=64
 #STRING="CPU Clock" 
 #STRING="Iterations:"
-#STRING="Time" 
-STRING="MByte/s"
+STRING="Time" 
+#STRING="MByte/s"
 #STRING="Allocate"
 
 
@@ -28,7 +28,7 @@ for n in `seq 1 $NCPUS`
 do
     
 printf "Overall-$n  "
-grep $STRING results/$CLUSTER/jobsteps/proc_$n.out | awk '{printf "%s ",$2}'
+grep $STRING results/$CLUSTER/run3/jobsteps/proc_$n.out | awk '{printf "%s ",$2}'
 
 printf "\n"
 
